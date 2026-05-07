@@ -1,0 +1,250 @@
+{
+  "Proteomics_l": {
+    "n_total": 450,
+    "n_train": 360,
+    "n_test": 90,
+    "feature_dim": 8,
+    "train_positive_rate": 0.21388888888888888,
+    "test_positive_rate": 0.2111111111111111,
+    "paper": {
+      "f1_paper": 0.969,
+      "auprc_paper": 0.943
+    },
+    "models": {
+      "dummy_majority": {
+        "macro_f1": 0.4409937888198758,
+        "weighted_f1": 0.6957902001380262,
+        "binary_f1": 0.0,
+        "balanced_accuracy": 0.5,
+        "auprc": 0.2111111111111111,
+        "positive_rate_pred": 0.0
+      },
+      "logreg": {
+        "macro_f1": 0.9526232672398666,
+        "weighted_f1": 0.9675264666315726,
+        "binary_f1": 0.9268292682926829,
+        "balanced_accuracy": 0.9788732394366197,
+        "auprc": 0.9973684210526315,
+        "positive_rate_pred": 0.24444444444444444
+      },
+      "linear_svm": {
+        "macro_f1": 0.9526232672398666,
+        "weighted_f1": 0.9675264666315726,
+        "binary_f1": 0.9268292682926829,
+        "balanced_accuracy": 0.9788732394366197,
+        "auprc": 0.9973684210526312,
+        "positive_rate_pred": 0.24444444444444444
+      },
+      "rbf_svm": {
+        "macro_f1": 0.9357142857142857,
+        "weighted_f1": 0.9563492063492065,
+        "binary_f1": 0.9,
+        "balanced_accuracy": 0.9525574499629355,
+        "auprc": 0.992822966507177,
+        "positive_rate_pred": 0.23333333333333334
+      },
+      "random_forest": {
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "binary_f1": 1.0,
+        "balanced_accuracy": 1.0,
+        "auprc": 0.9999999999999998,
+        "positive_rate_pred": 0.2111111111111111
+      },
+      "mlp": {
+        "macro_f1": 0.966641957005189,
+        "weighted_f1": 0.9777777777777777,
+        "binary_f1": 0.9473684210526315,
+        "balanced_accuracy": 0.966641957005189,
+        "auprc": 0.9973684210526315,
+        "positive_rate_pred": 0.2111111111111111
+      }
+    }
+  },
+  "Proteomics_gl": {
+    "n_total": 450,
+    "n_train": 360,
+    "n_test": 90,
+    "feature_dim": 64,
+    "train_positive_rate": 0.21388888888888888,
+    "test_positive_rate": 0.2111111111111111,
+    "paper": {
+      "f1_paper": 0.163,
+      "auprc_paper": 0.223
+    },
+    "models": {
+      "dummy_majority": {
+        "macro_f1": 0.4409937888198758,
+        "weighted_f1": 0.6957902001380262,
+        "binary_f1": 0.0,
+        "balanced_accuracy": 0.5,
+        "auprc": 0.2111111111111111,
+        "positive_rate_pred": 0.0
+      },
+      "logreg": {
+        "macro_f1": 0.9509001636661212,
+        "weighted_f1": 0.9669758137843246,
+        "binary_f1": 0.9230769230769231,
+        "balanced_accuracy": 0.9595997034840622,
+        "auprc": 0.9890350877192982,
+        "positive_rate_pred": 0.2222222222222222
+      },
+      "linear_svm": {
+        "macro_f1": 0.966641957005189,
+        "weighted_f1": 0.9777777777777777,
+        "binary_f1": 0.9473684210526315,
+        "balanced_accuracy": 0.966641957005189,
+        "auprc": 0.992822966507177,
+        "positive_rate_pred": 0.2111111111111111
+      },
+      "rbf_svm": {
+        "macro_f1": 0.967857142857143,
+        "weighted_f1": 0.9781746031746033,
+        "binary_f1": 0.9500000000000001,
+        "balanced_accuracy": 0.9859154929577465,
+        "auprc": 0.9916743613419514,
+        "positive_rate_pred": 0.23333333333333334
+      },
+      "random_forest": {
+        "macro_f1": 0.948969948969949,
+        "weighted_f1": 0.9663327663327663,
+        "binary_f1": 0.918918918918919,
+        "balanced_accuracy": 0.9403261675315049,
+        "auprc": 0.9922173855691861,
+        "positive_rate_pred": 0.2
+      },
+      "mlp": {
+        "macro_f1": 0.966641957005189,
+        "weighted_f1": 0.9777777777777777,
+        "binary_f1": 0.9473684210526315,
+        "balanced_accuracy": 0.966641957005189,
+        "auprc": 0.989293408960999,
+        "positive_rate_pred": 0.2111111111111111
+      }
+    }
+  },
+  "gene_l": {
+    "n_total": 450,
+    "n_train": 360,
+    "n_test": 90,
+    "feature_dim": 36,
+    "train_positive_rate": 0.5472222222222223,
+    "test_positive_rate": 0.2222222222222222,
+    "paper": {
+      "f1_paper": 0.781,
+      "auprc_paper": 0.659
+    },
+    "models": {
+      "dummy_majority": {
+        "macro_f1": 0.1818181818181818,
+        "weighted_f1": 0.0808080808080808,
+        "binary_f1": 0.3636363636363636,
+        "balanced_accuracy": 0.5,
+        "auprc": 0.2222222222222222,
+        "positive_rate_pred": 1.0
+      },
+      "logreg": {
+        "macro_f1": 0.9181669394435352,
+        "weighted_f1": 0.9439291992483482,
+        "binary_f1": 0.8717948717948718,
+        "balanced_accuracy": 0.9107142857142857,
+        "auprc": 0.9568951612903227,
+        "positive_rate_pred": 0.2111111111111111
+      },
+      "linear_svm": {
+        "macro_f1": 0.9181669394435352,
+        "weighted_f1": 0.9439291992483482,
+        "binary_f1": 0.8717948717948718,
+        "balanced_accuracy": 0.9107142857142857,
+        "auprc": 0.9568951612903228,
+        "positive_rate_pred": 0.2111111111111111
+      },
+      "rbf_svm": {
+        "macro_f1": 0.914949914949915,
+        "weighted_f1": 0.9427749427749428,
+        "binary_f1": 0.8648648648648648,
+        "balanced_accuracy": 0.8928571428571429,
+        "auprc": 0.97492784992785,
+        "positive_rate_pred": 0.18888888888888888
+      },
+      "random_forest": {
+        "macro_f1": 0.9689440993788819,
+        "weighted_f1": 0.9781458477110652,
+        "binary_f1": 0.9523809523809523,
+        "balanced_accuracy": 0.9857142857142858,
+        "auprc": 0.9951190476190477,
+        "positive_rate_pred": 0.24444444444444444
+      },
+      "mlp": {
+        "macro_f1": 0.9842077557466222,
+        "weighted_f1": 0.988984422218323,
+        "binary_f1": 0.975609756097561,
+        "balanced_accuracy": 0.9928571428571429,
+        "auprc": 1.0000000000000002,
+        "positive_rate_pred": 0.23333333333333334
+      }
+    }
+  },
+  "gene_gl": {
+    "n_total": 450,
+    "n_train": 360,
+    "n_test": 90,
+    "feature_dim": 36,
+    "train_positive_rate": 0.5472222222222223,
+    "test_positive_rate": 0.2222222222222222,
+    "paper": {
+      "f1_paper": 0.577,
+      "auprc_paper": 0.479
+    },
+    "models": {
+      "dummy_majority": {
+        "macro_f1": 0.1818181818181818,
+        "weighted_f1": 0.0808080808080808,
+        "binary_f1": 0.3636363636363636,
+        "balanced_accuracy": 0.5,
+        "auprc": 0.2222222222222222,
+        "positive_rate_pred": 1.0
+      },
+      "logreg": {
+        "macro_f1": 0.9181669394435352,
+        "weighted_f1": 0.9439291992483482,
+        "binary_f1": 0.8717948717948718,
+        "balanced_accuracy": 0.9107142857142857,
+        "auprc": 0.9511762070419567,
+        "positive_rate_pred": 0.2111111111111111
+      },
+      "linear_svm": {
+        "macro_f1": 0.9181669394435352,
+        "weighted_f1": 0.9439291992483482,
+        "binary_f1": 0.8717948717948718,
+        "balanced_accuracy": 0.9107142857142857,
+        "auprc": 0.9589247311827959,
+        "positive_rate_pred": 0.2111111111111111
+      },
+      "rbf_svm": {
+        "macro_f1": 0.914949914949915,
+        "weighted_f1": 0.9427749427749428,
+        "binary_f1": 0.8648648648648648,
+        "balanced_accuracy": 0.8928571428571429,
+        "auprc": 0.97492784992785,
+        "positive_rate_pred": 0.18888888888888888
+      },
+      "random_forest": {
+        "macro_f1": 0.9689440993788819,
+        "weighted_f1": 0.9781458477110652,
+        "binary_f1": 0.9523809523809523,
+        "balanced_accuracy": 0.9857142857142858,
+        "auprc": 0.9976190476190476,
+        "positive_rate_pred": 0.24444444444444444
+      },
+      "mlp": {
+        "macro_f1": 0.9689440993788819,
+        "weighted_f1": 0.9781458477110652,
+        "binary_f1": 0.9523809523809523,
+        "balanced_accuracy": 0.9857142857142858,
+        "auprc": 1.0000000000000002,
+        "positive_rate_pred": 0.24444444444444444
+      }
+    }
+  }
+}

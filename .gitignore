@@ -1,0 +1,19 @@
+# Manuscript and office files
+*.pdf
+*.docx
+*.doc
+~$*.docx
+
+# Local article packaging outputs
+outputs/
+
+# Upstream cloned repository and local artifacts
+repo_tvnn/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
