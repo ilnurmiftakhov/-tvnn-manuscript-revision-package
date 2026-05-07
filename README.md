@@ -83,3 +83,5 @@ Then run the scripts from the repository root.
 ## Upstream source
 
 - Public repository analyzed: https://github.com/347251369/Time-Varying-Biological-Time-Series-Prediction
+
+# -tvnn-manuscript-revision-package
