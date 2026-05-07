@@ -22,3 +22,4 @@
 - Produced a more academic, numbered, TOC-enabled version in `outputs/coauthor_revision_package_academic.md` and `outputs/coauthor_revision_package_academic.docx`.
 - Prepared an insertion-ready English manuscript package in `outputs/manuscript_insertion_package_en.md` and `outputs/manuscript_insertion_package_en.docx`.
 - Prepared a Russian insertion-ready version in `outputs/manuscript_insertion_package_ru.md` and `outputs/manuscript_insertion_package_ru.docx`.
+- Initialized a clean experiment-only git repository, added a README with generated figures, and created the first commit for GitHub upload.
