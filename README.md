@@ -1,5 +1,11 @@
 # TVNN Manuscript Revision Package
 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/status-active%20experiment%20package-brightgreen)
+![Scope](https://img.shields.io/badge/scope-robustness%20%26%20baseline%20audit-orange)
+![Artifacts](https://img.shields.io/badge/artifacts-code%20%7C%20json%20%7C%20figures-informational)
+![Upstream](https://img.shields.io/badge/upstream-public%20TVNN%20repo-lightgrey)
+
 Independent experiment package for a robustness, reproducibility, and baseline reassessment of the public code associated with the manuscript **“Time-Varying Biological Time-Series Prediction and Pattern Interpretation using Koopman Theory and Large Language Models.”**
 
 > This repository contains **experiment code, raw result files, and generated figures only**. It intentionally excludes manuscript PDFs, DOCX files, and article-packaging materials.
